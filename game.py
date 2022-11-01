@@ -633,6 +633,6 @@ class BillBoard:
         glDeleteBuffers(1, (self.vao,)) 
 
 if __name__ == "__main__":
-
+    print("start")
     window = initialize_glfw()
     myApp = App(window)
